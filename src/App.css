@@ -1,38 +1,299 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.nav_container {
+  padding: 0 6rem;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.9);
+
+  background-color: rgba(217, 182, 189, 0.502);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  backdrop-filter: blur(10px) brightness(1.1);
+}
+.logo_text {
+  font-size: 2rem;
+  cursor: pointer;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+.ul_ {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  height: 6rem;
+}
+
+.li_ {
+  list-style: none;
+  font-size: 1.3rem;
+  transition: all 0.6s ease-in-out;
+}
+.li_:hover {
+  font-size: 1.3rem;
+  margin-top: 1.3rem;
+  margin-left: 2.5rem;
+  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2);
+  background-clip: border-box;
+  transform: scale(1.1);
+}
+.a_ {
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+/* #need_help{
+  font-size: 1.4rem;
+  font-weight: bold;
+  animation: need_help  1s infinite alternate 0.2s ease-in-out;
+}
+
+@keyframes need_help {
+  from {margin-right: 0.2rem ; font-size: 1.2rem; font-variant: initial;}
+  to {margin-right: 0.3rem ; font-size: 1.1rem; font-variant: normal;}
+}
+ */
+
+.Hero_div {
+  background-image: url("../src/images/hero_image1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 50rem;
+  -webkit-animation: slide-in-bck-center 0.7s
+    cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-in-bck-center 0.9s 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    backwards;
+}
+
+@-webkit-keyframes slide-in-bck-center {
+  0% {
+    -webkit-transform: translateZ(600px);
+    transform: translateZ(600px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-bck-center {
+  0% {
+    -webkit-transform: translateZ(600px);
+    transform: translateZ(600px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.hero_title_text {
+  position: absolute;
+  padding: 11rem 6rem;
+  font-size: 2.6rem;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+.hero_paragraph_text {
+  padding-top: 17rem;
+  color: white;
+  padding-left: 6rem;
+  line-height: 1.5rem;
+  width: 30rem;
+  word-wrap: break-word;
+  font-weight: bold;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+  margin-bottom: 1.2rem;
+}
+
+.start_btn {
+  width: 10rem;
+  height: 3rem;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-left: 6rem;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.244);
+  border-bottom-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+  border: none;
+  cursor: pointer;
+
+  color: white;
+  background-color: rgba(217, 182, 189, 0.502);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  backdrop-filter: blur(10px) brightness(1.1);
+  transition: all 0.4s ease-in-out;
+}
+
+.start_btn:hover {
+  font-size: 1.2rem;
+  width: 11rem;
+  height: 3rem;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.6);
+}
+
+/* QUIZ 1 DESIGN STARTS FROM HERE */
+.quiz1_div {
+  padding: 6rem;
+
+  background-color: rgba(0, 0, 0, 0.502);
+  background-image: linear-gradient(
+    rgba(167, 22, 22, 0.2),
+    rgba(64, 11, 11, 0.2)
+  );
+  backdrop-filter: blur(10px) brightness(1.1);
+}
+
+.general_container {
+  display: flex;
+}
+.general_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.images_container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: 1rem;
+  margin: 2rem;
+  margin-top: 3rem;
+}
+
+.title_text {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: white;
+  font-size: 1.8rem;
+}
+
+.range_text_span {
+  text-align: center;
+  margin-bottom: 6rem;
   color: white;
 }
+#img_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-.App-link {
-  color: #61dafb;
+  border-bottom-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+  width: 20rem;
+  height: 25rem;
+
+  color: white;
+  background-color: rgba(217, 182, 189, 0.986);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  backdrop-filter: blur(10px) brightness(1.1);
+  transition: all 0.4s ease-in-out;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.621);
+}
+.image_1 {
+  width: 17rem;
+  border-bottom-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.621);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pic_btn {
+  margin-top: 1rem;
+  width: 10rem;
+  height: 3rem;
+  font-weight: bold;
+  font-size: 1rem;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.621);
+  border-bottom-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+  border: none;
+  cursor: pointer;
+
+  color: white;
+  background-color: rgba(217, 182, 189, 0.986);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  backdrop-filter: blur(10px) brightness(1.1);
+  transition: all 0.4s ease-in-out;
 }
+.pic_btn:hover {
+  font-size: 1.2rem;
+  width: 11rem;
+  height: 3rem;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.6);
+}
+/* QUIZ 1 DESIGN ENDS HERE */
+
+/* QUIZ TWO DESIGN STARTS FROM HERE */
+
+.quiz_2_div {
+  background-color: rgba(0, 0, 0, 0.502);
+  background-image: linear-gradient(
+    rgba(81, 34, 34, 0.2),
+    rgba(161, 18, 18, 0.2)
+  );
+  backdrop-filter: blur(10px) brightness(1.1);
+}
+.box_container {
+  padding: 12rem;
+}
+
+.silver_title_text {
+  padding-top: 6rem;
+  text-align: center;
+  color: white;
+  font-size: 1.6rem;
+}
+
+.silver_div {
+  text-align: center;
+  padding-top: 9%;
+  border-bottom-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  width: 18rem;
+  height: 20rem;
+  color: white;
+  background-color: rgb(217, 182, 189);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  backdrop-filter: blur(10px) brightness(1.1);
+  transition: all 0.4s ease-in-out;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.621);
+}
+
+.silver_text {
+  font-weight: bold;
+  font-size: 3rem;
+  padding-bottom: 0.6rem;
+  color: rgb(0, 0, 0);
+}
+.silver_text1 {
+  font-size: 1rem;
+  padding-bottom: 0.4rem;
+}
+
+.box_container {
+  display: flex;
+  align-items: center;
+  align-items: center;
+  gap: 8rem;
+}
+/* QUIZ TEO DESIGN ENDS HERE */

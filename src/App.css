@@ -6,6 +6,7 @@
 
 body {
   font-family: sans-serif;
+  scroll-behavior: smooth scroll;
 }
 
 .nav_container {
@@ -207,9 +208,18 @@ body {
   background-color: rgba(217, 182, 189, 0.986);
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
   backdrop-filter: blur(10px) brightness(1.1);
-  transition: all 0.4s ease-in-out;
+  transition: all 0.6s ease-in-out;
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.621);
+  cursor: pointer;
 }
+
+#img_div:hover {
+  font-size: 1.2rem;
+  min-width: 20rem;
+  height: 25rem;
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.9);
+}
+
 .image_1 {
   width: 17rem;
   border-bottom-left-radius: 1.5rem;
@@ -248,13 +258,16 @@ body {
 .quiz_2_div {
   background-color: rgba(0, 0, 0, 0.502);
   background-image: linear-gradient(
-    rgba(81, 34, 34, 0.2),
-    rgba(161, 18, 18, 0.2)
+    rgba(167, 22, 22, 0.2),
+    rgba(64, 11, 11, 0.2)
   );
   backdrop-filter: blur(10px) brightness(1.1);
 }
 .box_container {
-  padding: 12rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 11rem;
 }
 
 .silver_title_text {
@@ -266,17 +279,58 @@ body {
 
 .silver_div {
   text-align: center;
-  padding-top: 9%;
+  padding-top: 7rem;
   border-bottom-left-radius: 2rem;
   border-top-right-radius: 2rem;
-  width: 18rem;
-  height: 20rem;
+  min-width: 20rem;
+  height: 22rem;
   color: white;
   background-color: rgb(217, 182, 189);
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
   backdrop-filter: blur(10px) brightness(1.1);
   transition: all 0.4s ease-in-out;
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.621);
+  cursor: pointer;
+  transition: all 0.6s ease-in-out;
+}
+.silver_div:hover {
+  font-size: 1.2rem;
+  min-width: 20rem;
+  height: 25rem;
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.9);
+  background-image: linear-gradient(
+    50deg,
+    rgba(137, 137, 137, 0.9) 0%,
+    rgba(199, 199, 199, 0.9) 50%,
+    rgba(137, 137, 137, 0.9) 100%
+  );
+}
+
+#gold_div:hover {
+  font-size: 1.2rem;
+  min-width: 20rem;
+  height: 25rem;
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.9);
+  background-image: linear-gradient(
+    50deg,
+    rgba(186, 113, 45, 0.9) 0%,
+    rgba(252, 176, 64, 0.9) 50%,
+    rgba(186, 113, 45, 0.9) 100%
+  );
+}
+
+#both_div:hover {
+  font-size: 1.2rem;
+  min-width: 20rem;
+  height: 25rem;
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.9);
+  background-image: linear-gradient(
+    50deg,
+    rgba(186, 113, 45, 0.9) 0%,
+    rgba(252, 176, 64, 0.9) 33%,
+    rgba(199, 199, 199, 0.9) 66%,
+    rgba(137, 137, 137, 0.9) 100%
+  );
 }
 
 .silver_text {
@@ -284,16 +338,122 @@ body {
   font-size: 3rem;
   padding-bottom: 0.6rem;
   color: rgb(0, 0, 0);
+  cursor: pointer;
 }
 .silver_text1 {
   font-size: 1rem;
+  word-spacing: 0.1rem;
+  letter-spacing: 0.2px;
   padding-bottom: 0.4rem;
+  padding: 0 1.6rem;
+  cursor: pointer;
 }
-
+.silver_text2 {
+  cursor: pointer;
+}
 .box_container {
   display: flex;
   align-items: center;
   align-items: center;
-  gap: 8rem;
+  gap: 1.8rem;
+  flex-wrap: wrap;
+  margin-top: -6rem;
 }
-/* QUIZ TEO DESIGN ENDS HERE */
+
+/* QUIZ TWO DESIGN ENDS HERE */
+
+/* QUIZ THREE DESIGN STARTS HERE*/
+.quiz_3_div {
+  background-color: rgba(0, 0, 0, 0.502);
+  background-image: linear-gradient(
+    rgba(167, 22, 22, 0.2),
+    rgba(64, 11, 11, 0.2)
+  );
+  backdrop-filter: blur(10px) brightness(1.1);
+}
+
+#text_quiz3 {
+  font-weight: bold;
+  font-size: 1.9rem;
+  padding-top: 2rem;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+#silver_div1:hover {
+  background-image: linear-gradient(
+    50deg,
+    rgba(140, 66, 104, 0.7) 0%,
+    rgba(0, 45, 118, 0.7) 100%
+  );
+  transition: all 0.6s ease-in-out;
+}
+#gold_div2:hover {
+  background-image: linear-gradient(
+    50deg,
+    rgba(124, 216, 210, 0.7) 0%,
+    rgba(58, 89, 68, 0.7) 100%
+  );
+}
+#both_div3:hover {
+  background-image: linear-gradient(
+    50deg,
+    rgba(124, 216, 210, 0.7) 0%,
+    rgba(0, 45, 118, 0.7) 100%
+  );
+}
+
+/* QUIZ THREE DESIGN ENDS FROM HERE */
+/* QUIZ FOUR DESIGN STARTS FROM HERE */
+.quiz_4_div {
+  background-color: rgba(0, 0, 0, 0.502);
+  background-image: linear-gradient(
+    rgba(167, 22, 22, 0.2),
+    rgba(64, 11, 11, 0.2)
+  );
+  backdrop-filter: blur(10px) brightness(1.1);
+}
+
+.silver_text4 {
+  margin-top: 2rem;
+  font-size: 1.4rem;
+  line-clamp: 1rem;
+  padding: 0 1rem;
+  color: black;
+  white-space: wrap;
+}
+
+.silver_div4 {
+  text-align: center;
+  padding-top: 7rem;
+  border-bottom-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  min-width: 20rem;
+  height: 22rem;
+  color: white;
+  background-color: rgb(217, 182, 189);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  backdrop-filter: blur(10px) brightness(1.1);
+  transition: all 0.4s ease-in-out;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.621);
+  cursor: pointer;
+  transition: all 0.6s ease-in-out;
+}
+
+.silver_div4:hover {
+  min-width: 20rem;
+  height: 25rem;
+}
+
+/* QUIZ FOUR DESIGN ENDS FROM HERE */
+/* QUIZ FIVE DESIGN STARTS FROM HERE */
+.Quiz_5_div {
+  padding: 6rem;
+  background-color: rgba(0, 0, 0, 0.502);
+  background-image: linear-gradient(
+    rgba(167, 22, 22, 0.2),
+    rgba(64, 11, 11, 0.2)
+  );
+  backdrop-filter: blur(10px) brightness(1.1);
+}
+/* QUIZ FIVE DESIGN ENDS FROM HERE */

@@ -6,10 +6,9 @@ import pic4 from "../images/pic4.png";
 import pic5 from "../images/pic5.png";
 import pic6 from "../images/pic6.png";
 
-
-function Quiz_1() {
+function Quiz_5() {
   return (
-    <div className="quiz1_div">
+    <div className="Quiz_5_div">
       <h1 className="title_text">WHAT MODEL IS CLOSEST TO YOUR SKINTONE?</h1>
       <h3 className="range_text_span">Select your range:</h3>
       <div className="general_container">
@@ -66,4 +65,4 @@ function Quiz_1() {
   );
 }
 
-export default Quiz_1;
+export default Quiz_5;

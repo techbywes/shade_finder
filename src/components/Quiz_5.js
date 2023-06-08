@@ -12,22 +12,22 @@ function Quiz_5() {
       <h1 className="title_text">WHAT MODEL IS CLOSEST TO YOUR SKINTONE?</h1>
       <h3 className="range_text_span">Select your range:</h3>
       <div className="general_container">
-        <div className="images_container">
+        {/* <div className="images_container">
           <div id="img_div" className="pic1_image_div">
             <img src={pic1} alt="model picture" className="image_1" />
           </div>
           <div className="btn_div">
             <button className="pic_btn">Fair Skin</button>
           </div>
-        </div>
-        <div className="images_container">
+        </div> */}
+        {/* <div className="images_container">
           <div id="img_div" className="pic1_image_div">
             <img src={pic2} alt="model picture" className="image_1" />
           </div>
           <div className="btn_div">
             <button className="pic_btn">Light Skin</button>
           </div>
-        </div>
+        </div> */}
         <div className="images_container">
           <div id="img_div" className="pic1_image_div">
             <img src={pic3} alt="model picture" className="image_1" />

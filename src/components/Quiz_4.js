@@ -1,8 +1,11 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
+import Quiz_5 from "./Quiz_5";
 
 function Quiz_4() {
+  const navigate = useNavigate();
   return (
-    <div className="quiz_4_div">
+    <div className="quiz_4_div" onClick={() => navigate("/Quiz_5")}>
       <h1 className="silver_title_text">
         HOW DOES YOUR SKIN REACT IN THE SUN?
       </h1>

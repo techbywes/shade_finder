@@ -1,8 +1,13 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
+import Quiz_3 from "./Quiz_3";
+
+
 
 function Quiz_2() {
+  const navigate = useNavigate();
   return (
-    <div className="quiz_2_div">
+    <div className="quiz_2_div" onClick={()=>navigate('/Quiz_3')}>
       <h1 className="silver_title_text">
         WHAT TYPE OF JEWELRY LOOKS BEST ON YOU?
       </h1>

@@ -9,6 +9,10 @@ import Quiz_2 from "./components/Quiz_2";
 import Quiz_3 from "./components/Quiz_3";
 import Quiz_4 from "./components/Quiz_4";
 import Quiz_5 from "./components/Quiz_5";
+import Light_fair from "./components/light_fair";
+import Deep_fair from "./components/Deep_fair";
+import Light_brown from "./components/Light_brown";
+import Deep_chocolate from "./components/Deep_chocolate";
 
 function App() {
   return (
@@ -20,6 +24,10 @@ function App() {
         <Route path="/Quiz_3" element={<Quiz_3 />} />
         <Route path="/Quiz_4" element={<Quiz_4 />} />
         <Route path="/Quiz_5" element={<Quiz_5 />} />
+        <Route path="/Light_fair" element={<Light_fair />} />
+        <Route path="/Deep_fair" element={<Deep_fair />} />
+        <Route path="/Light_brown" element={<Light_brown />} />
+        <Route path="/Deep_chocolate" element={<Deep_chocolate />} />
       </Routes>
       <div className="App">
         {/* <Nav />

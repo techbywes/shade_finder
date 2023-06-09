@@ -17,11 +17,6 @@ function Nav() {
               Shop Directly
             </Link>
           </li>
-          <li className="li_">
-            <a href="#" className="a_">
-              Book a Dermatologist
-            </a>
-          </li>
           <li id="need_help" className="li_">
             <Link to="https://ujvbeauty.com/contact/" className="a_">
               Need Help?

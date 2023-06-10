@@ -55,10 +55,11 @@ body {
   color: white;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
   transition: all 0.6s ease-in-out;
+  font-size: 2.4rem;
 }
 
 .a_:hover {
-  font-size: 1.6rem;
+  font-size: 2.8rem;
   margin-top: 0.2rem;
   margin-left: 2rem;
   text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2);
@@ -151,15 +152,17 @@ body {
 }
 
 .hero_paragraph_text {
+  overflow: hidden;
   padding-top: 17rem;
+  font-size: 1.3rem;
+  line-height: 2rem;
   color: white;
   padding-left: 6rem;
-  line-height: 1.5rem;
   width: 30rem;
   word-wrap: break-word;
   font-weight: bold;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
-  margin-bottom: 1.2rem;
+  margin-bottom: 1rem;
   animation: tracking-in-expand-fwd-bottom 1s
     cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
@@ -978,9 +981,14 @@ body {
   .nav_container {
     padding: 0;
     z-index: 1;
+    outline: 4px solid white;
   }
   .Hero_div {
-    background-image: url("../src/images/hero_image1.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("../src/images/mob_pic.png");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -1000,31 +1008,25 @@ body {
   }
 
   .logo_text {
-    padding-left: 1rem;
-    font-size: 1.3rem;
+    padding-left: 1.2rem;
+    font-size: 1.5rem;
     z-index: 1;
   }
   .a_ {
-    padding-right: 1.2rem;
+    padding-right: 1.8rem;
+    font-size: 1.6rem;
   }
 
   .hero_title_text {
     margin: 0 auto;
-    margin-left: 3.5rem;
-    font-size: 2rem;
+    font-size: 1.8rem;
     white-space: nowrap;
-    margin-top: 32rem;
-    margin-left: 6rem;
+    margin-top: 12rem;
   }
   .hero_paragraph_text {
-    padding: 0 0.3rem;
-    font-size: 1.3rem;
-    width: 21rem;
-    text-align: center;
-    margin-top: 36rem;
-    margin-left: 2.4rem;
-    border-right: none;
-    outline: none !important;
+    padding: 0 6rem;
+    font-size: 1.2rem;
+    margin-top: 26rem;
   }
   .start_btn {
     margin: 0 auto;
@@ -1095,13 +1097,18 @@ body {
   }
 }
 
-@media (width >= 481px) and (width < 767px) {
+@media (width >= 481px) and (width < 768px) {
   .nav_container {
     padding: 0;
     z-index: 1;
+    outline: 4px solid white;
   }
   .Hero_div {
-    background-image: url("../src/images/hero_image1.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("../src/images/mob_pic.png");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -1121,48 +1128,74 @@ body {
   }
 
   .logo_text {
-    padding-left: 1rem;
-    font-size: 1.3rem;
+    padding-left: 1.2rem;
+    font-size: 2.2rem;
     z-index: 1;
   }
   .a_ {
-    padding-right: 1rem;
+    padding-right: 1.8rem;
+    font-size: 2.2rem;
   }
 
   .hero_title_text {
     margin: 0 auto;
-    margin-left: 4rem;
-    font-size: 2rem;
+    font-size: 3rem;
     white-space: nowrap;
-    margin-top: 26rem;
-    margin-left: -rem;
+    margin-top: 12rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
   .hero_paragraph_text {
-    padding: 1rem;
-    font-size: 1.2rem;
-    width: 21rem;
-    text-align: center;
-    margin-top: 30rem;
-    margin-left: 1rem;
+    padding: 0 0;
+    font-size: 2rem;
+    margin-top: 29rem;
+    line-height: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
+
   .start_btn {
     margin: 0 auto;
   }
+  .silver_div {
+    width: 50rem;
+    height: 30rem;
+    padding: 8rem 2rem;
+  }
 
+  .silver_div:hover {
+    width: 50rem;
+    height: 30rem;
+  }
+  #gold_div:hover {
+    width: 50rem;
+    height: 30rem;
+  }
+
+  #both_div:hover {
+    width: 50rem;
+    height: 30rem;
+  }
   .title_text {
-    font-size: 1.3rem;
+    font-size: 2.4rem;
     padding-left: 1rem;
     padding-right: 1rem;
   }
 
   .silver_title_text {
-    font-size: 1.3rem;
+    font-size: 2rem;
     padding-left: 2rem;
     padding-right: 2rem;
   }
 
+  .silver_text1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+  }
+  .silver_text2 {
+    font-size: 2rem;
+  }
   .Title_ {
-    font-size: 1.4rem;
+    font-size: 2rem;
     padding-left: 2rem;
     padding-right: 2rem;
   }
@@ -1170,22 +1203,106 @@ body {
     text-align: center;
   }
 
+  #silver_div4 {
+    width: 50rem;
+    height: 30rem;
+    padding: 8rem 2rem;
+    transition: all 1s ease;
+  }
+  #silver_div4:hover {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  #gold_div4 {
+    width: 50rem;
+    height: 30rem;
+    padding: 8rem 2rem;
+    transition: all 1s ease;
+  }
+  #gold_div4:hover {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  #both_div4 {
+    width: 50rem;
+    height: 30rem;
+    padding: 8rem 2rem;
+    transition: all 1s ease;
+  }
+  #both_div4:hover {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  #text_quiz4 {
+    font-size: 2.2rem;
+    cursor: pointer;
+  }
   .product_price_span {
     display: block;
     text-align: center;
+    font-size: 3rem;
   }
   .product_description {
     text-align: center;
-    padding: 0 0.7rem;
-    font-size: 1.1rem;
+    line-height: 3rem;
+    font-size: 2rem;
+  }
+  .paragraph_text_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 4rem;
+    width: 100%;
+    margin-bottom: 4rem;
+  }
+  .img_div {
+    margin: 0 auto;
+    margin-bottom: 3rem;
+  }
+
+  .product_title {
+    font-size: 2rem;
   }
   .buy_now_btn {
     display: block;
     margin: 0 auto;
+    font-size: 2rem;
+    width: 12rem;
+    height: 5rem;
+    margin-bottom: 4rem;
+  }
+  .start_btn {
+    width: 12rem;
+    height: 4rem;
+    font-size: 1.5rem;
+  }
+  .start_btn:hover {
+    width: 12rem;
+    height: 4rem;
+    font-size: 1.4rem;
+  }
+
+  .type_title__text {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+  }
+
+  .product_category {
+    font-size: 2rem;
+  }
+
+  .buy_now_btn,
+  a {
+    text-decoration: none;
+  }
+
+  #text_quiz3 {
+    margin-top: 3rem;
+    font-size: 2.9rem;
   }
 }
 
-@media (width >= 768px) and (width < 897px) {
+@media (width >= 769px) and (width < 897px) {
   .nav_container {
     padding: 0;
     z-index: 1;

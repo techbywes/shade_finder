@@ -19,7 +19,7 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<Header />} />
-        <Route path="/Quiz_1" element={<Quiz_1 />} />
+        <Route path="/Quiz_1" element={< Quiz_1 />} />
         <Route path="/Quiz_2" element={<Quiz_2 />} />
         <Route path="/Quiz_3" element={<Quiz_3 />} />
         <Route path="/Quiz_4" element={<Quiz_4 />} />

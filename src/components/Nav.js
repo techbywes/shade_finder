@@ -14,12 +14,7 @@ function Nav() {
         <ul className="ul_">
           <li className="li_">
             <Link to="https://ujvbeauty.com/" className="a_">
-              Shop Directly
-            </Link>
-          </li>
-          <li id="need_help" className="li_">
-            <Link to="https://ujvbeauty.com/contact/" className="a_">
-              Need Help?
+              Shop
             </Link>
           </li>
         </ul>

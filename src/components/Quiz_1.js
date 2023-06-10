@@ -12,55 +12,61 @@ function Quiz_1() {
   const navigate = useNavigate();
   return (
     <div className="quiz1_div">
-      <h1 className="title_text">CHOOSE YOUR COMPLESSION BELOW!</h1>
-      <div className="general_container"  onClick={()=>navigate('/Quiz_2')}>
-        {/* <div className="images_container">
-          <div id="img_div" className="pic1_image_div">
-            <img src={pic1} alt="model picture" className="image_1" />
-          </div>
-          <div className="btn_div">
-            <button className="pic_btn" onClick={()=>navigate('/Quiz_2')}>Fair Skin</button>
-          </div>
-        </div> */}
-        {/* <div className="images_container">
-          <div id="img_div" className="pic1_image_div">
-            <img src={pic2} alt="model picture" className="image_1" />
-          </div>
-          <div className="btn_div">
-            <button className="pic_btn">Light Skin</button>
-          </div>
-        </div> */}
-        <div className="images_container">
-          <div id="img_div" className="pic1_image_div">
-            <img src={pic3} alt="model picture" className="image_1" />
-          </div>
-          <div className="btn_div">
-            <button className="pic_btn">Light / Fair</button>
-          </div>
+      <h1 className="title_text">Choose Your Complexion Below!</h1>
+      <div className="general_container">
+        <div
+          id="img_div"
+          className="pic1_image_div"
+          onClick={() => navigate("/Quiz_2")}
+        >
+          <img
+            src={pic3}
+            alt="model picture"
+            className="image_1"
+            onClick={() => navigate("/Quiz_2")}
+          />
+          <p className="type_title__text">Light / Fair</p>
         </div>
-        <div className="images_container">
-          <div id="img_div" className="pic1_image_div">
-            <img src={pic4} alt="model picture" className="image_1" />
-          </div>
-          <div className="btn_div">
-            <button className="pic_btn">Deep / Fair</button>
-          </div>
+        <div
+          id="img_div"
+          className="pic1_image_div"
+          onClick={() => navigate("/Quiz_2")}
+        >
+          <img
+            src={pic4}
+            alt="model picture"
+            className="image_1"
+            onClick={() => navigate("/Quiz_2")}
+          />
+          <p className="type_title__text">Deep / Fair</p>
         </div>
-        <div className="images_container">
-          <div id="img_div" className="pic1_image_div">
-            <img src={pic5} alt="model picture" className="image_1" />
-          </div>
-          <div className="btn_div">
-            <button className="pic_btn">Light / Brown</button>
-          </div>
+
+        <div
+          id="img_div"
+          className="pic1_image_div"
+          onClick={() => navigate("/Quiz_2")}
+        >
+          <img
+            src={pic5}
+            alt="model picture"
+            className="image_1"
+            onClick={() => navigate("/Quiz_2")}
+          />
+          <p className="type_title__text">Light / Brown</p>
         </div>
-        <div className="images_container">
-          <div id="img_div" className="pic1_image_div">
-            <img src={pic6} alt="model picture" className="image_1" />
-          </div>
-          <div className="btn_div">
-            <button className="pic_btn">Deep / Chocolate</button>
-          </div>
+
+        <div
+          id="img_div"
+          className="pic1_image_div"
+          onClick={() => navigate("/Quiz_2")}
+        >
+          <img
+            src={pic6}
+            alt="model picture"
+            className="image_1"
+            onClick={() => navigate("/Quiz_2")}
+          />
+          <p className="type_title__text">Deep / Chocolate</p>
         </div>
       </div>
     </div>

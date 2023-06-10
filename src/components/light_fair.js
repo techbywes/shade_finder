@@ -10,6 +10,7 @@ function Light_fair() {
 
   return (
     <div className="light_fair_div">
+      <div className="animation_light_fair_div">
       <section className="product_info_container">
         <h1 className="Title_">This Products Will Work Fine ON You</h1>
         <div className="img_product_info_div">
@@ -104,6 +105,7 @@ function Light_fair() {
           </div>
         </div>
       </section>
+      </div>
     </div>
   );
 }

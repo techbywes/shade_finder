@@ -8,6 +8,7 @@ import { Link, Route, Routes, Switch } from "react-router-dom";
 function Light_brown() {
   return (
     <div className="light_brown_div">
+      <div className="animation_light_brown">
       <section className="product_info_container">
         <h1 className="Title_">This Products Will Work Fine ON You</h1>
         <div className="img_product_info_div">
@@ -103,6 +104,7 @@ function Light_brown() {
           </div>
         </div>
       </section>
+      </div>
     </div>
   );
 }

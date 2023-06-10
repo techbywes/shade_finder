@@ -8,6 +8,7 @@ import { Link, Route, Routes, Switch } from "react-router-dom";
 function Deep_chocolate() {
   return (
     <div className="deep_chocolate_div">
+      <div className="animation_deep_chocolate">
       <section className="product_info_container">
         <h1 className="Title_">This Products Will Work Fine ON You</h1>
         <div className="img_product_info_div">
@@ -103,6 +104,7 @@ function Deep_chocolate() {
           </div>
         </div>
       </section>
+      </div>
     </div>
   );
 }

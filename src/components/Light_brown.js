@@ -2,6 +2,7 @@ import React from "react";
 import warm_beige from "../images/dee-beige-m2.png";
 import warm_beigec1 from "../images/warm-beige-c1.png";
 import powder from "../images/banana-powder.png";
+import bronze_4 from "../images/Bronze_4.png";
 import { useNavigate } from "react-router-dom";
 import { Link, Route, Routes, Switch } from "react-router-dom";
 
@@ -97,6 +98,37 @@ function Light_brown() {
             </div>
             <Link
               to="https://ujvbeauty.com/product/warm-bronze-m4/"
+              className="warm_beie_img"
+            >
+              <button className="buy_now_btn">Buy Now</button>
+            </Link>
+          </div>
+          <div className="images_product_info_div">
+            <div className="img_div">
+              <Link
+                to="https://ujvbeauty.com/product/bronze/"
+                className="warm_beie_img"
+              >
+                <img
+                  src={bronze_4}
+                  alt="warm beige image"
+                  className="warm_beie_img"
+                />
+              </Link>
+
+              <h6 className="product_category">POWDER</h6>
+            </div>
+            <h3 className="product_title">Bronze</h3>
+            <span className="product_price_span">25,00 €</span>
+            <div className="paragraph_text_div">
+              <p className="product_description">
+                This Powder was specially formulated for people with darker
+                complexions – from fair to dark. The formula contains vitamin E,
+                which protects the skin from environmental damage.
+              </p>
+            </div>
+            <Link
+              to="https://ujvbeauty.com/product/bronze/"
               className="warm_beie_img"
             >
               <button className="buy_now_btn">Buy Now</button>

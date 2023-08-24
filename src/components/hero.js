@@ -18,6 +18,12 @@ function Hero() {
       <button class="start_btn" onClick={() => navigate("/Quiz_1")}>
         Let's Go!
       </button>
+
+      <footer>
+        <p className="made_by_wes">
+          Made by <a href="https://techbywes.com/">Techbywes.com</a>
+        </p>
+      </footer>
     </div>
   );
 }

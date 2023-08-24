@@ -11,6 +11,30 @@ body {
   font-family: "Lato", sans-serif;
 }
 
+footer{
+  width: 14rem;
+  margin: 0 auto;
+  margin-top: 14rem;
+}
+
+.made_by_wes,
+a {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.4s ease-in-out;
+  margin: 0;
+}
+
+.made_by_wes > a {
+  color: black;
+}
+
+.made_by_wes > a:hover {
+  color: white;
+}
+
 .nav_container {
   padding: 0 6rem;
   position: absolute;
@@ -211,6 +235,7 @@ body {
   border-top-right-radius: 1.5rem;
   border: none;
   cursor: pointer;
+
 
   color: white;
   background-color: rgba(217, 182, 189, 0.502);
@@ -978,6 +1003,11 @@ body {
 
 /* MEDIA QUERIES STARTS FROM HERE */
 @media (width < 480px) {
+  footer{
+    width: 14rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
   .nav_container {
     padding: 0;
     z-index: 1;
@@ -1021,7 +1051,8 @@ body {
     margin: 0 auto;
     font-size: 1.8rem;
     white-space: nowrap;
-    margin-top: 12rem;
+    margin-top: 11rem;
+    margin-bottom: 2rem;
   }
   .hero_paragraph_text {
     padding: 0 6rem;

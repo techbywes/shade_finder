@@ -38,7 +38,7 @@ function Light_brown() {
               to="https://ujvbeauty.com/product/bronze/"
               className="warm_beie_img"
             >
-              <button className="buy_now_btn">Buy Now</button>
+              <button className="buy_now_btn">Shop Now</button>
             </Link>
           </div>
           <div className="images_product_info_div2">

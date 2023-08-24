@@ -13,7 +13,7 @@ function Quiz_1() {
   const navigate = useNavigate();
   return (
     <div className="quiz1_div">
-      <h1 className="title_text">Choose Your Complexion Below!</h1>
+      <h1 className="title_text">Choose Your Complexion Below</h1>
       <div className="general_container">
         <div
           id="img_div"

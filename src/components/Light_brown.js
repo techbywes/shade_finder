@@ -10,7 +10,7 @@ function Light_brown() {
     <div className="light_brown_div">
       <div className="animation_light_brown">
       <section className="product_info_container">
-        <h1 className="Title_">This Products Will Work Fine ON You</h1>
+        <h1 className="Title_">These Products Will Work Fine ON You</h1>
         <div className="img_product_info_div">
           <div className="images_product_info_div3">
             <div className="img_div">

@@ -14,7 +14,7 @@ body {
 footer{
   width: 14rem;
   margin: 0 auto;
-  margin-top: 14rem;
+  margin-top: 10rem;
 }
 
 .made_by_wes,
@@ -25,6 +25,7 @@ a {
   font-weight: 600;
   transition: all 0.4s ease-in-out;
   margin: 0;
+  text-shadow: 1px 1px 8px rgba(252, 252, 252, 0.5);
 }
 
 .made_by_wes > a {

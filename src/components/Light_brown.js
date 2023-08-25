@@ -31,7 +31,7 @@ function Light_brown() {
             <span className="product_price_span">25,00 €</span>
             <div className="paragraph_text_div">
               <p className="product_description">
-                This powder is specifically designed for black women of caramel,
+                This powder is specifically designed for women of colour,
                 brown and chocolate to enhance their natural beauty.
               </p>
             </div>
@@ -60,7 +60,7 @@ function Light_brown() {
             <span className="product_price_span">11,99 €</span>
             <div className="paragraph_text_div">
               <p className="product_description">
-                This concealers are specifically designed for black women with
+                This concealers are specifically designed for women of colour with
                 caramel, brown and chocolate complexsion, offering a range of
                 shades that perfectly match dark skin tones.
               </p>
@@ -91,8 +91,7 @@ function Light_brown() {
             <span className="product_price_span">22,99 €</span>
             <div className="paragraph_text_div">
               <p className="product_description">
-                This foundation was specially formulated for people with darker
-                complexions – from fair to dark. The formula contains vitamin E,
+                This foundation was specially formulated for women of colour. The formula contains vitamin E,
                 which protects the skin from environmental damage.
               </p>
             </div>
@@ -122,8 +121,7 @@ function Light_brown() {
             <span className="product_price_span">25,00 €</span>
             <div className="paragraph_text_div">
               <p className="product_description">
-                This Powder was specially formulated for people with darker
-                complexions – from fair to dark. The formula contains vitamin E,
+                This Powder was specially formulated for women of colour. The formula contains vitamin E,
                 which protects the skin from environmental damage.
               </p>
             </div>

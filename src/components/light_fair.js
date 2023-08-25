@@ -35,9 +35,9 @@ function Light_fair() {
               <span className="product_price_span">22,99 €</span>
               <div className="paragraph_text_div">
                 <p className="product_description">
-                  This foundation was specially formulated for people with
-                  darker complexions – from fair to dark. The formula contains
-                  vitamin E, which protects the skin from environmental damage.
+                  This foundation was specially formulated for women of colour.
+                  The formula contains vitamin E, which protects the skin from
+                  environmental damage.
                 </p>
               </div>
               <Link
@@ -65,9 +65,9 @@ function Light_fair() {
               <span className="product_price_span">11,99 €</span>
               <div className="paragraph_text_div">
                 <p className="product_description">
-                  This concealers are specifically designed for people of color with
-                  caramel, brown and chocolate complexsion, offering a range of
-                  shades that perfectly match dark skin tones.
+                  This concealers are specifically designed for women of colour,
+                  brown and chocolate complexsion, offering a range of shades
+                  that perfectly match dark skin tones.
                 </p>
               </div>
               <Link
@@ -95,9 +95,9 @@ function Light_fair() {
               <span className="product_price_span">25,00 €</span>
               <div className="paragraph_text_div">
                 <p className="product_description">
-                  This powder is specifically designed for black women of all
-                  complexsion to enhance their natural beauty. This finely
-                  milled powder provides a smooth and even finish to the skin.
+                  This powder is specifically designed for women of colour, to
+                  enhance their natural beauty. This finely milled powder
+                  provides a smooth and even finish to the skin.
                 </p>
               </div>
               <Link
@@ -126,9 +126,9 @@ function Light_fair() {
               <span className="product_price_span">25,00 €</span>
               <div className="paragraph_text_div">
                 <p className="product_description">
-                  This powder is specifically designed for black women of all
-                  complexsion to enhance their natural beauty. This finely
-                  milled powder provides a smooth and even finish to the skin.
+                  This powder is specifically designed for women of colour, to
+                  enhance their natural beauty. This finely milled powder
+                  provides a smooth and even finish to the skin.
                 </p>
               </div>
               <Link

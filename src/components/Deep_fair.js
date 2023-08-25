@@ -90,7 +90,7 @@ function Deep_fair() {
               <div className="paragraph_text_div">
                 <p className="product_description">
                   This concealers are specifically designed for for women of colour, offering a range of shades that
-                  perfectly match dark skin tones.
+                  perfectly match their skin tones.
                 </p>
               </div>
               <Link
@@ -119,7 +119,7 @@ function Deep_fair() {
               <div className="paragraph_text_div">
                 <p className="product_description">
                   This concealers are specifically designed for women of colour, offering a range of shades that
-                  perfectly match dark skin tones.
+                  perfectly match their skin tones.
                 </p>
               </div>
               <Link

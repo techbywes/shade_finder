@@ -62,7 +62,7 @@ function Light_brown() {
               <p className="product_description">
                 This concealers are specifically designed for women of colour with
                 caramel, brown and chocolate complexsion, offering a range of
-                shades that perfectly match dark skin tones.
+                shades that perfectly match their skin tones.
               </p>
             </div>
             <Link

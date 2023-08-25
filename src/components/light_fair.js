@@ -67,7 +67,7 @@ function Light_fair() {
                 <p className="product_description">
                   This concealers are specifically designed for women of colour,
                   brown and chocolate complexsion, offering a range of shades
-                  that perfectly match dark skin tones.
+                  that perfectly match their skin tones.
                 </p>
               </div>
               <Link

@@ -17,6 +17,7 @@ import Deep_chocolate from "./components/Deep_chocolate";
 function App() {
   return (
     <>
+    <Nav />
       <Routes>
         <Route path="/" element={<Header />} />
         <Route path="/Quiz_1" element={< Quiz_1 />} />

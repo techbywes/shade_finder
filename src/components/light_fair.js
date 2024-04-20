@@ -31,7 +31,7 @@ function Light_fair() {
 
                 <h6 className="product_category">FOUNDATION</h6>
               </div>
-              <h3 className="product_title">Warm Bronze M4</h3>
+              <h3 className="product_title">Warm Beige</h3>
               <span className="product_price_span">22,99 €</span>
               <div className="paragraph_text_div">
                 <p className="product_description">
@@ -61,7 +61,7 @@ function Light_fair() {
                 </Link>
                 <h6 className="product_category">CONCEALER</h6>
               </div>
-              <h3 className="product_title">Deep Bronze C4</h3>
+              <h3 className="product_title">Beige</h3>
               <span className="product_price_span">11,99 €</span>
               <div className="paragraph_text_div">
                 <p className="product_description">
